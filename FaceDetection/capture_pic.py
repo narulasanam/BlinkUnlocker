@@ -21,9 +21,8 @@ while True:
     cv2.imshow('frame',frame)
 
     if cv2.waitKey(5) == 32:
-        cv2.imwrite("image1.jpg",frame)
         cv2.imshow("hello",frame)
-        print "taken"
+        print("taken")
 
     if cv2.waitKey(5) == 27:
         break
